@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './config'; // Imports environment variables and configures FCL
 
 ReactDOM.render(
   <React.StrictMode>
